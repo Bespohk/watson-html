@@ -14,15 +14,7 @@ Utility methods for dealing with HTML.
 Build Status
 ------------
 
-+-----------+------------------+---------------------+
-| Branch    | Status           | Coverage            |
-+===========+==================+=====================+
-| Master    | |Build StatusM|  | |Coverage Status|   |
-+-----------+------------------+---------------------+
-| Develop   | |Build StatusD|  |                     |
-+-----------+------------------+---------------------+
-
-|Pypi|
+|Build Status| |Coverage Status| |Version| |Downloads| |Licence|
 
 Installation
 ------------
@@ -46,11 +38,13 @@ Table of Contents
 
 .. include:: toc.rst.inc
 
+.. |Build Status| image:: https://api.travis-ci.org/Bespohk/watson-html.png?branch=master
+   :target: https://travis-ci.org/Bespohk/watson-html
 .. |Coverage Status| image:: https://coveralls.io/repos/bespohk/watson-html/badge.png
-   :target: htmls://coveralls.io/r/bespohk/watson-html
-.. |Build StatusD| image:: htmls://api.travis-ci.org/bespohk/watson-html.png?branch=develop
-   :target: htmls://travis-ci.org/bespohk/watson-html
-.. |Build StatusM| image:: htmls://api.travis-ci.org/bespohk/watson-html.png?branch=master
-   :target: htmls://travis-ci.org/bespohk/watson-html
-.. |Pypi| image:: htmls://pypip.in/v/watson-html/badge.png
-   :target: htmls://crate.io/packages/watson-html/
+   :target: https://coveralls.io/r/bespohk/watson-html
+.. |Version| image:: https://pypip.in/v/watson-html/badge.png
+   :target: https://pypi.python.org/pypi/watson-html/
+.. |Downloads| image:: https://pypip.in/d/watson-html/badge.png
+   :target: https://pypi.python.org/pypi/watson-html/
+.. |Licence| image:: https://pypip.in/license/watson-html/badge.png
+   :target: https://pypi.python.org/pypi/watson-html/
