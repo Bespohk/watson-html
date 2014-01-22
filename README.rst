@@ -19,10 +19,10 @@ Installation
 Dependencies
 ------------
 
-.. |Build Status| image:: https://api.travis-ci.org/Bespohk/watson-html.png?branch=master
-   :target: https://travis-ci.org/Bespohk/watson-html
-.. |Coverage Status| image:: https://coveralls.io/repos/bespohk/watson-html/badge.png
-   :target: https://coveralls.io/r/bespohk/watson-html
+.. |Build Status| image:: https://api.travis-ci.org/watsonpy/watson-html.png?branch=master
+   :target: https://travis-ci.org/watsonpy/watson-html
+.. |Coverage Status| image:: https://coveralls.io/repos/watsonpy/watson-html/badge.png
+   :target: https://coveralls.io/r/watsonpy/watson-html
 .. |Version| image:: https://pypip.in/v/watson-html/badge.png
    :target: https://pypi.python.org/pypi/watson-html/
 .. |Downloads| image:: https://pypip.in/d/watson-html/badge.png

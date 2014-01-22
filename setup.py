@@ -64,7 +64,7 @@ with open(os.path.join(path, 'requirements.txt')) as f:
 setup(
     name='watson-html',
     version=watson.html.__version__,
-    url='http://github.com/bespohk/watson-html',
+    url='http://github.com/watsonpy/watson-html',
     description='Utility methods for dealing with HTML.',
     long_description=readme,
 
