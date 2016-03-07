@@ -23,9 +23,9 @@ Dependencies
    :target: https://travis-ci.org/watsonpy/watson-html
 .. |Coverage Status| image:: https://coveralls.io/repos/watsonpy/watson-html/badge.png
    :target: https://coveralls.io/r/watsonpy/watson-html
-.. |Version| image:: https://pypip.in/v/watson-html/badge.png
+.. |Version| image:: http://badge.kloud51.com/pypi/v/watson-html.png
    :target: https://pypi.python.org/pypi/watson-html/
-.. |Downloads| image:: https://pypip.in/d/watson-html/badge.png
+.. |Downloads| image:: http://badge.kloud51.com/pypi/d/watson-html.png
    :target: https://pypi.python.org/pypi/watson-html/
-.. |Licence| image:: https://pypip.in/license/watson-html/badge.png
+.. |Licence| image:: http://badge.kloud51.com/pypi/license/watson-html.png
    :target: https://pypi.python.org/pypi/watson-html/
