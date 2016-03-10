@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import collections
+from watson.common import strings
 
 
 class TagMixin(object):
@@ -30,5 +31,6 @@ def flatten_attributes(attrs, keep_empty=False):
     Attributes are sorted alphabetically.
     """
     value_check = lambda val: True if keep_empty else True if val else False
-    return ' '.join(['{0}="{1}"'.format(name, value or '') for name, value
+    return ' '.join(['{0}="{1}"'.format(
+                    strings.hyphenate(name), value or '') for name, value
                     in sorted(attrs.items()) if value_check(value)])
