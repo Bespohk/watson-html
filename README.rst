@@ -9,7 +9,7 @@ Docs <http://watson-html.readthedocs.org/>`__.
 Build Status
 ^^^^^^^^^^^^
 
-|Build Status| |Coverage Status| |Version| |Downloads| |Licence|
+|Build Status| |Coverage Status| |Version|
 
 Installation
 ------------
@@ -19,9 +19,9 @@ Installation
 Dependencies
 ------------
 
-.. |Build Status| image:: https://api.travis-ci.org/watsonpy/watson-html.png?branch=master
+.. |Build Status| image:: https://img.shields.io/travis/watsonpy/watson-html.svg?maxAge=2592000
    :target: https://travis-ci.org/watsonpy/watson-html
-.. |Coverage Status| image:: https://coveralls.io/repos/watsonpy/watson-html/badge.png
+.. |Coverage Status| image:: https://img.shields.io/coveralls/watsonpy/watson-html.svg?maxAge=2592000
    :target: https://coveralls.io/r/watsonpy/watson-html
 .. |Version| image:: https://img.shields.io/pypi/v/watson-html.svg?maxAge=2592000
    :target: https://pypi.python.org/pypi/watson-html/
