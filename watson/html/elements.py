@@ -25,12 +25,16 @@ class TagMixin(object):
         raise NotImplementedError('The render method has not been implemented')
 
 
+def _value_check(value, keep_empty=False):
+    return True if keep_empty else True if value else False
+
+
 def flatten_attributes(attrs, keep_empty=False):
     """Flattens attributes into a single string of key=value pairs.
 
     Attributes are sorted alphabetically.
     """
-    value_check = lambda val: True if keep_empty else True if val else False
+    # value_check = lambda val: True if keep_empty else True if val else False
     return ' '.join(['{0}="{1}"'.format(
                     strings.hyphenate(name), value or '') for name, value
-                    in sorted(attrs.items()) if value_check(value)])
+        in sorted(attrs.items()) if _value_check(value, keep_empty)])
